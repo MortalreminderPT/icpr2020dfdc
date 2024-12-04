@@ -1,0 +1,12 @@
+av
+albumentations
+ffmpeg
+jupyter
+numpy
+opencv-python
+opencv-contrib-python
+tqdm
+pandas
+tensorboardx
+efficientnet-pytorch
+scikit-learn

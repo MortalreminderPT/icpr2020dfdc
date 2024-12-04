@@ -209,6 +209,7 @@ class BlazeFace(nn.Module):
             - confidence score
         """
         if isinstance(x, np.ndarray):
+            # print(x)
             x = torch.from_numpy(x).permute((0, 3, 1, 2))
 
         assert x.shape[1] == 3
